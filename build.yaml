@@ -23,6 +23,6 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=n
     snippet: studio-rpc-usb-uart
   - board: halcyon_wireless//zmk
-    shield: halcyon_elora_left battery_coincell mod_encoder_left
+    shield: halcyon_elora_left mod_battery_coincell mod_encoder_left
   - board: halcyon_wireless//zmk
-    shield: halcyon_elora_right battery_coincell mod_encoder_right
+    shield: halcyon_elora_right mod_battery_coincell mod_encoder_right

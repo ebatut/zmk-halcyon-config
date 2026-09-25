@@ -19,10 +19,9 @@
 include:
   - board: halcyon_dongle//zmk
     shield: halcyon_elora_dongle
-    artifact-name: elora_rev2_dongle
-    cmake-args: -DCONFIG_ZMK_STUDIO=n
-    snippet: studio-rpc-usb-uart
   - board: halcyon_wireless//zmk
     shield: halcyon_elora_left mod_battery_coincell mod_encoder_left
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: halcyon_wireless//zmk
     shield: halcyon_elora_right mod_battery_coincell mod_encoder_right
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n

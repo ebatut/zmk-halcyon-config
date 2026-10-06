@@ -29,12 +29,12 @@
             //                      | ADJ | GUI |LA(ENT)| SPC  | NAV  |   | SYM  | SPC  | ALT | GUI | APP |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3        &kp N4    &kp N5                                                    &kp N6     &kp N7         &kp N8              &kp N9   &kp N0    &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp E         &kp R     &kp T                                                     &kp Y      &kp U          &kp I               &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A   &kp S   &kp D         &kp F     &kp G                                                     &kp H      &kp J          &kp K               &kp L    &kp SEMI  &mt RCTRL SQT
-&mo 3      &kp Z   &kp X   &kp C         &kp V     &kp B   &trans   &trans          &trans           &trans  &kp N      &kp M          &kp COMMA           &kp DOT  &kp FSLH  &mo 3
-                           &kp LEFT_ALT  &kp LGUI  &mo 1   &kp RET  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &mo 2   &kp SPACE  &kp RIGHT_ALT  &kp K_CONTEXT_MENU
-&none      &none   &none   &none         &none                                                                          &none          &none               &none    &none     &none
+&kp ESC           &kp N1  &kp N2  &kp N3        &kp N4    &kp N5                                                    &kp N6     &kp N7         &kp N8              &kp N9   &kp N0    &kp GRAVE
+&kp TAB           &kp Q   &kp W   &kp E         &kp R     &kp T                                                     &kp Y      &kp U          &kp I               &kp O    &kp P     &kp BSPC
+&kp LCTRL         &kp A   &kp S   &kp D         &kp F     &kp G                                                     &kp H      &kp J          &kp K               &kp L    &kp SEMI  &kp SQT
+&mo 3             &kp Z   &kp X   &kp C         &kp V     &kp B   &trans   &trans          &trans           &trans  &kp N      &kp M          &kp COMMA           &kp DOT  &kp FSLH  &mo 3
+                                  &kp LEFT_ALT  &kp LGUI  &mo 1   &kp RET  &kp LEFT_SHIFT  &kp RIGHT_SHIFT  &mo 2   &kp SPACE  &kp RIGHT_ALT  &kp K_CONTEXT_MENU
+&kp K_PLAY_PAUSE  &none   &none   &none         &none                                                                          &none          &none               &none    &none     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -81,12 +81,12 @@
             //                   |     |     |     |     |      |   |     |     |       |      |     |
 
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans                                    &trans     &trans      &trans            &trans      &trans        &trans
-&trans  &trans    &trans    &trans     &trans     &trans                                    &kp PG_UP  &kp HOME    &kp UP            &kp END     &kp K_VOL_UP  &kp DEL
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                    &kp PG_DN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp K_VOL_DN  &kp BACKSLASH
-&trans  &trans    &trans    &trans     &trans     &trans  &trans  &kp SLCK  &trans  &trans  &trans     &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp K_MUTE    &trans
-                            &trans     &trans     &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans
-&trans  &trans    &trans    &trans     &trans                                                          &trans      &trans            &trans      &trans        &trans
+&trans  &trans     &trans     &trans     &trans     &trans                                    &trans     &trans      &trans            &trans      &trans        &trans
+&trans  &trans     &trans     &trans     &trans     &trans                                    &kp PG_UP  &kp HOME    &kp UP            &kp END     &kp K_VOL_UP  &kp DEL
+&trans  &kp LGUI   &kp LALT   &kp LCTRL  &kp LSHFT  &trans                                    &kp PG_DN  &kp LEFT    &kp DOWN          &kp RIGHT   &kp K_VOL_DN  &kp BACKSLASH
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &kp SLCK  &trans  &trans  &trans     &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp K_MUTE    &trans
+                              &trans     &trans     &trans  &trans  &trans    &trans  &trans  &trans     &trans      &trans
+&trans  &trans     &trans     &trans     &trans                                                          &trans      &trans            &trans      &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
